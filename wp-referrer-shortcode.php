@@ -13,6 +13,6 @@ function short_referrer($attr, $content) {
 		return ''.$content.'';
 	 }
 }
-add_shortcode('shortref', 'short_referrer', 'href');
+add_shortcode('referrer', 'short_referrer', 'href');
 
 ?>
